@@ -1,0 +1,9 @@
+CREATE DATABASE batchb;
+
+USE batchb;
+
+CREATE TABLE users (
+    username VARCHAR(50),
+    password VARCHAR(50),
+    email VARCHAR(100)
+);
